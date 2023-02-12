@@ -23,5 +23,16 @@ public class MainClass {
         masinaNoua.afiseazaDetaliiVehicul();
         //Pot fi utlizate methodele setCuloare, setNrRoti si setMarca
         System.out.println("");
+
+        //Polimorfism
+        Animal nouAnimal = new Animal();
+        nouAnimal.emiteSunet();
+
+        Caine nouCaine = new Caine();
+        nouCaine.emiteSunet();
+
+        Pisica nouPisica = new Pisica();
+        nouPisica.emiteSunet();
+
     }
 }
