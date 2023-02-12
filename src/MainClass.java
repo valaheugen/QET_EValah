@@ -15,7 +15,7 @@ public class MainClass {
         System.out.println("");
 
         //Inheritance
-        Vehicul nouVehicul = new Vehicul("rosu",4);
+        Vehicul nouVehicul = new Vehicul("rosu", 4);
         nouVehicul.afiseazaDetaliiVehicul();
         //Pot fi utlizate methodele setCuloare si setNrRoti
 
@@ -33,6 +33,14 @@ public class MainClass {
 
         Pisica nouPisica = new Pisica();
         nouPisica.emiteSunet();
+        System.out.println("");
+
+        ////Polimorfism
+        Triunghi nouTriunghi = new Triunghi(5.5,3);
+        nouTriunghi.calculArie();
+
+        Patrat nouPatrat = new Patrat(5);
+        nouPatrat.calculArie();
 
     }
 }
